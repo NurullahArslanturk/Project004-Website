@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #35424a;
+  height: 9vh;
+  align-items: center;
+  padding: 1.3rem;
+  border-bottom: 2px solid #a9508b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+}
+ul li a:hover {
+  border-bottom: 2px solid #a9508b;
+  color: #a9508b;
+  font-weight: 600;
+}
+span {
+  color: #a9508b;
+}
+h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.prof {
+  background-image: url(./images/showcase.jpg);
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  color: white;
+}
+h1 {
+  font-size: 3rem;
+}
+.subs {
+  display: flex;
+  justify-content: space-between;
+  height: 9vh;
+  background-color: #35424a;
+  align-items: center;
+  padding: 1.3rem;
+  position: sticky;
+  top: 9vh;
+}
+h3 {
+  color: white;
+  font-size: 1.4rem;
+}
+.form-a input {
+  outline: none;
+  width: 12vw;
+  height: 1.8rem;
+  transition: all 0.3s;
+}
+.form-a input:focus {
+  width: 15vw;
+}
+.form-a button {
+  width: 5vw;
+  height: 1.8rem;
+  color: white;
+  background-color: #e84910;
+  border: none;
+}
+.form-a button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #e84910;
+  font-weight: bold;
+}
+#home {
+  display: flex;
+  text-align: center;
+  gap: 1.3rem;
+  padding: 1.3rem;
+  height: 50vh;
+}
+
+footer {
+  text-align: center;
+  background-color: #35424a;
+  color: white;
+  height: 12vh;
+  padding-top: 0.7rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#about {
+  height: 60vh;
+  display: flex;
+  gap: 1.8rem;
+  line-height: 1.3;
+  padding: 2rem;
+}
+#about h4 {
+  padding: 1rem;
+}
+.left {
+  flex: 70%;
+}
+.right {
+  flex: 30%;
+  background-color: #35424a;
+  color: white;
+  padding: 0.5rem;
+  height: 26vh;
+  margin-top: 1.5rem;
+}
+.about-p2 {
+  background-color: #35424a;
+  padding: 1.2rem;
+  color: white;
+}
+#about p {
+  text-align: center;
+}
+#services {
+  display: flex;
+  height: 100vh;
+  gap: 1.5rem;
+}
+.website {
+  background: #e6e6e6;
+  padding: 2.5rem 1rem;
+  margin: 0.5rem;
+  margin-left: 1.5rem;
+  border: 1px solid gray;
+}
+.right2 {
+  margin-top: 2.5rem;
+  padding-top: 1.2rem;
+  height: 32vh;
+}
+
+.form-b input:focus {
+  width: 15vw;
+}
+.form-b button {
+  width: 5vw;
+  height: 1.8rem;
+  color: white;
+  background-color: #e84910;
+  border: none;
+  margin-top: 0.5rem;
+}
+.form-b button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #e84910;
+  font-weight: bold;
+}
+.serv {
+  color: black;
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
